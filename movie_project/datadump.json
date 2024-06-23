@@ -1,0 +1,1919 @@
+[
+
+    {
+
+        "model": "auth.group",
+
+        "fields": {
+
+            "name": "DBadmin",
+
+            "permissions": [
+
+                [
+
+                    "add_director",
+
+                    "movies",
+
+                    "director"
+
+                ],
+
+                [
+
+                    "change_director",
+
+                    "movies",
+
+                    "director"
+
+                ],
+
+                [
+
+                    "delete_director",
+
+                    "movies",
+
+                    "director"
+
+                ],
+
+                [
+
+                    "view_director",
+
+                    "movies",
+
+                    "director"
+
+                ],
+
+                [
+
+                    "add_movie",
+
+                    "movies",
+
+                    "movie"
+
+                ],
+
+                [
+
+                    "change_movie",
+
+                    "movies",
+
+                    "movie"
+
+                ],
+
+                [
+
+                    "delete_movie",
+
+                    "movies",
+
+                    "movie"
+
+                ],
+
+                [
+
+                    "view_movie",
+
+                    "movies",
+
+                    "movie"
+
+                ]
+
+            ]
+
+        }
+
+    },
+
+    {
+
+        "model": "auth.group",
+
+        "fields": {
+
+            "name": "client",
+
+            "permissions": [
+
+                [
+
+                    "view_director",
+
+                    "movies",
+
+                    "director"
+
+                ],
+
+                [
+
+                    "view_movie",
+
+                    "movies",
+
+                    "movie"
+
+                ]
+
+            ]
+
+        }
+
+    },
+
+    {
+
+        "model": "auth.user",
+
+        "fields": {
+
+            "password": "pbkdf2_sha256$720000$qvP5ZIhHH3cv2DBsqFsRwM$K+n/sUbCJT9GnyHJmxqYQgierMQ3QUKv6a+8a4AmlCM=",
+
+            "last_login": "2024-06-19T17:44:07.759Z",
+
+            "is_superuser": true,
+
+            "username": "Fernando",
+
+            "first_name": "",
+
+            "last_name": "",
+
+            "email": "",
+
+            "is_staff": true,
+
+            "is_active": true,
+
+            "date_joined": "2024-06-19T12:43:05Z",
+
+            "groups": [],
+
+            "user_permissions": []
+
+        }
+
+    },
+
+    {
+
+        "model": "auth.user",
+
+        "fields": {
+
+            "password": "pbkdf2_sha256$720000$83lyRMKVCxjQp4wfX7vtWm$zBA0YAw18gV8hPOBcu+17e9zUrcpWvyunuQkfIePLcQ=",
+
+            "last_login": "2024-06-19T17:35:33.988Z",
+
+            "is_superuser": false,
+
+            "username": "Paco",
+
+            "first_name": "",
+
+            "last_name": "",
+
+            "email": "",
+
+            "is_staff": true,
+
+            "is_active": true,
+
+            "date_joined": "2024-06-19T17:33:04Z",
+
+            "groups": [
+
+                [
+
+                    "client"
+
+                ]
+
+            ],
+
+            "user_permissions": [
+
+                [
+
+                    "view_director",
+
+                    "movies",
+
+                    "director"
+
+                ],
+
+                [
+
+                    "view_movie",
+
+                    "movies",
+
+                    "movie"
+
+                ]
+
+            ]
+
+        }
+
+    },
+
+    {
+
+        "model": "auth.user",
+
+        "fields": {
+
+            "password": "pbkdf2_sha256$720000$iiLEQJANDXi0cKWQBJOlmF$HDJAbaY6hkIt6+Ur9UZt+eCCjysi6UQInmTNyEqDdPM=",
+
+            "last_login": null,
+
+            "is_superuser": false,
+
+            "username": "Kiko",
+
+            "first_name": "",
+
+            "last_name": "",
+
+            "email": "",
+
+            "is_staff": true,
+
+            "is_active": true,
+
+            "date_joined": "2024-06-19T17:52:52Z",
+
+            "groups": [
+
+                [
+
+                    "DBadmin"
+
+                ]
+
+            ],
+
+            "user_permissions": []
+
+        }
+
+    },
+
+    {
+
+        "model": "sessions.session",
+
+        "pk": "4i2a8x0c42kwz98a2426d7s9ujdmrgdy",
+
+        "fields": {
+
+            "session_data": ".eJxVjDsOwjAQBe_iGlkb8AdT0ucM1np3jQPIluKkQtwdIqWA9s3Me6mI61Li2mWOE6uLGtThd0tID6kb4DvWW9PU6jJPSW-K3mnXY2N5Xnf376BgL9_ao0uGzgGIIQ8-OwcGjEvCjgHFCiV_5AB8cpTBWgkJPEkmtEYyi3p_APfCOSA:1sJwsp:bgxXkTP2Yye99kGTlTjv7182q4WWGNfN1xW1yu-Pw9g",
+
+            "expire_date": "2024-07-03T15:05:59.322Z"
+
+        }
+
+    },
+
+    {
+
+        "model": "sessions.session",
+
+        "pk": "6lnk2zp52yxj7bn919kf7d094wu72pjb",
+
+        "fields": {
+
+            "session_data": ".eJxVjDsOwjAQBe_iGlkb8AdT0ucM1np3jQPIluKkQtwdIqWA9s3Me6mI61Li2mWOE6uLGtThd0tID6kb4DvWW9PU6jJPSW-K3mnXY2N5Xnf376BgL9_ao0uGzgGIIQ8-OwcGjEvCjgHFCiV_5AB8cpTBWgkJPEkmtEYyi3p_APfCOSA:1sJzLr:J6YzJe6_qxefRjG7R-gQgp_wjINk2PJtiwin2jO7MYo",
+
+            "expire_date": "2024-07-03T17:44:07.767Z"
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.director",
+
+        "pk": 1,
+
+        "fields": {
+
+            "name": "Steven Spielberg",
+
+            "birth_date": "1946-12-18"
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.director",
+
+        "pk": 2,
+
+        "fields": {
+
+            "name": "Martin Scorsese",
+
+            "birth_date": "1942-11-17"
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.director",
+
+        "pk": 3,
+
+        "fields": {
+
+            "name": "Christopher Nolan",
+
+            "birth_date": "1970-07-30"
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.director",
+
+        "pk": 4,
+
+        "fields": {
+
+            "name": "Quentin Tarantino",
+
+            "birth_date": "1963-03-27"
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.director",
+
+        "pk": 5,
+
+        "fields": {
+
+            "name": "Alfred Hitchcock",
+
+            "birth_date": "1899-08-13"
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 1,
+
+        "fields": {
+
+            "title": "Jurassic Park",
+
+            "release_date": "1993-06-11",
+
+            "director": 1
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 2,
+
+        "fields": {
+
+            "title": "Schindler's List",
+
+            "release_date": "1993-12-15",
+
+            "director": 1
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 3,
+
+        "fields": {
+
+            "title": "E.T. the Extra-Terrestrial",
+
+            "release_date": "1982-06-11",
+
+            "director": 1
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 4,
+
+        "fields": {
+
+            "title": "Goodfellas",
+
+            "release_date": "1990-09-19",
+
+            "director": 2
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 5,
+
+        "fields": {
+
+            "title": "Taxi Driver",
+
+            "release_date": "1976-02-08",
+
+            "director": 2
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 6,
+
+        "fields": {
+
+            "title": "The Irishman",
+
+            "release_date": "2019-11-01",
+
+            "director": 2
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 7,
+
+        "fields": {
+
+            "title": "Inception",
+
+            "release_date": "2010-07-16",
+
+            "director": 3
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 8,
+
+        "fields": {
+
+            "title": "The Dark Knight",
+
+            "release_date": "2008-07-18",
+
+            "director": 3
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 9,
+
+        "fields": {
+
+            "title": "Interstellar",
+
+            "release_date": "2014-11-07",
+
+            "director": 3
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 10,
+
+        "fields": {
+
+            "title": "Pulp Fiction",
+
+            "release_date": "1994-10-14",
+
+            "director": 4
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 11,
+
+        "fields": {
+
+            "title": "Kill Bill: Vol. 1",
+
+            "release_date": "2003-10-10",
+
+            "director": 4
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 12,
+
+        "fields": {
+
+            "title": "Django Unchained",
+
+            "release_date": "2012-12-25",
+
+            "director": 4
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 13,
+
+        "fields": {
+
+            "title": "Psycho",
+
+            "release_date": "1960-06-16",
+
+            "director": 5
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 14,
+
+        "fields": {
+
+            "title": "Vertigo",
+
+            "release_date": "1958-05-09",
+
+            "director": 5
+
+        }
+
+    },
+
+    {
+
+        "model": "movies.movie",
+
+        "pk": 15,
+
+        "fields": {
+
+            "title": "Rear Window",
+
+            "release_date": "1954-08-01",
+
+            "director": 5
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 1,
+
+        "fields": {
+
+            "action_time": "2024-06-19T16:23:16.190Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "group"
+
+            ],
+
+            "object_id": "1",
+
+            "object_repr": "DBadmin",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 2,
+
+        "fields": {
+
+            "action_time": "2024-06-19T16:25:33.419Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "group"
+
+            ],
+
+            "object_id": "2",
+
+            "object_repr": "client",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 3,
+
+        "fields": {
+
+            "action_time": "2024-06-19T16:26:27.684Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "1",
+
+            "object_repr": "Fernando",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 4,
+
+        "fields": {
+
+            "action_time": "2024-06-19T16:27:54.361Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "2",
+
+            "object_repr": "Paco",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 5,
+
+        "fields": {
+
+            "action_time": "2024-06-19T16:28:53.503Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "2",
+
+            "object_repr": "Paco",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 6,
+
+        "fields": {
+
+            "action_time": "2024-06-19T16:48:15.339Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "1",
+
+            "object_repr": "Fernando",
+
+            "action_flag": 2,
+
+            "change_message": "[]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 7,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:24:13.951Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "1",
+
+            "object_repr": "Fernando",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 8,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:31:13.593Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "2",
+
+            "object_repr": "Paco",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 9,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:32:45.598Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "2",
+
+            "object_repr": "Paco",
+
+            "action_flag": 3,
+
+            "change_message": ""
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 10,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:33:05.131Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "3",
+
+            "object_repr": "Paco",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 11,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:34:11.442Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "3",
+
+            "object_repr": "Paco",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"User permissions\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 12,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:35:13.430Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "3",
+
+            "object_repr": "Paco",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 13,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:52:53.136Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "4",
+
+            "object_repr": "Kiko",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 14,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:53:17.317Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "user"
+
+            ],
+
+            "object_id": "4",
+
+            "object_repr": "Kiko",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 15,
+
+        "fields": {
+
+            "action_time": "2024-06-19T17:54:24.295Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "auth",
+
+                "group"
+
+            ],
+
+            "object_id": "1",
+
+            "object_repr": "DBadmin",
+
+            "action_flag": 2,
+
+            "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 16,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:37:53.302Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "director"
+
+            ],
+
+            "object_id": "1",
+
+            "object_repr": "Steven Spielberg",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 17,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:38:09.591Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "director"
+
+            ],
+
+            "object_id": "2",
+
+            "object_repr": "Martin Scorsese",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 18,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:38:24.564Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "director"
+
+            ],
+
+            "object_id": "3",
+
+            "object_repr": "Christopher Nolan",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 19,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:38:43.877Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "director"
+
+            ],
+
+            "object_id": "4",
+
+            "object_repr": "Quentin Tarantino",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 20,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:39:01.261Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "director"
+
+            ],
+
+            "object_id": "5",
+
+            "object_repr": "Alfred Hitchcock",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 21,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:39:31.976Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "1",
+
+            "object_repr": "Jurassic Park",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 22,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:39:55.587Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "2",
+
+            "object_repr": "Schindler's List",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 23,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:40:15.364Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "3",
+
+            "object_repr": "E.T. the Extra-Terrestrial",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 24,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:40:35.861Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "4",
+
+            "object_repr": "Goodfellas",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 25,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:40:56.496Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "5",
+
+            "object_repr": "Taxi Driver",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 26,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:41:11.819Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "6",
+
+            "object_repr": "The Irishman",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 27,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:41:31.816Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "7",
+
+            "object_repr": "Inception",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 28,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:41:48.800Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "8",
+
+            "object_repr": "The Dark Knight",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 29,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:42:10.379Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "9",
+
+            "object_repr": "Interstellar",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 30,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:42:42.317Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "10",
+
+            "object_repr": "Pulp Fiction",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 31,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:43:00.459Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "11",
+
+            "object_repr": "Kill Bill: Vol. 1",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 32,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:43:16.426Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "12",
+
+            "object_repr": "Django Unchained",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 33,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:43:39.265Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "13",
+
+            "object_repr": "Psycho",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 34,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:44:07.400Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "14",
+
+            "object_repr": "Vertigo",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    },
+
+    {
+
+        "model": "admin.logentry",
+
+        "pk": 35,
+
+        "fields": {
+
+            "action_time": "2024-06-20T10:44:28.204Z",
+
+            "user": [
+
+                "Fernando"
+
+            ],
+
+            "content_type": [
+
+                "movies",
+
+                "movie"
+
+            ],
+
+            "object_id": "15",
+
+            "object_repr": "Rear Window",
+
+            "action_flag": 1,
+
+            "change_message": "[{\"added\": {}}]"
+
+        }
+
+    }
+
+    ]
+
+    
